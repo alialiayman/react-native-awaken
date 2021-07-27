@@ -81,7 +81,6 @@ function ContactsScreen({ navigation }) {
       let settingsString = await AsyncStorage.getItem("@settings");
       if (settingsString !== null) {
         const settings = JSON.parse(settingsString);
-        alert(JSON.stringify(settings));
         if (settings.excludedContacts) {
           settings.excludedContacts = {
             ...settings.excludedContacts,

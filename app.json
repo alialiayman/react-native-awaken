@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "awakened",
+    "slug": "awakened",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "awakened"
+}
